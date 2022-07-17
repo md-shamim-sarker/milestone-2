@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    height: fit-content;
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: justify;
+}
+
+#img-1 {
+    width: 100px;
+    clear: left;
+    /* padding: 10px; */
+}
+
+#img-2 {
+    width: 200px;
+    float: right;
+    padding: 10px;
+}
